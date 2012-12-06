@@ -1,4 +1,4 @@
 FadoeBase
 =========
 
-Sample, skeleton module for use with the ZF2 MVC layer.
+Some base classes for my projects.

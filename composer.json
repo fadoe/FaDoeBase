@@ -1,0 +1,31 @@
+{
+    "name": "fadoe/fadoe-base",
+    "description": "Base classes for FaDoe Modules.",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "zend",
+        "module",
+        "fadoe"
+    ],
+    "homepage": "https://github.com/fadoe/FaDoeBase",
+    "authors": [
+        {
+            "name": "Falk Doering",
+            "homepage": "http://www.fadoe.de/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "FadoeBase": "src/",
+            "FadoeBaseTest": "tests/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
