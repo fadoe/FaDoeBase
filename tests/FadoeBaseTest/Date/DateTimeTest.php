@@ -1,6 +1,6 @@
 <?php
 
-namespace FadoeBaseTest\Date;
+namespace FadoeBaseTest\Date\DateTime;
 use PHPUnit_Framework_TestCase as TestCase;
 use FadoeBase\Date\DateTime;
 

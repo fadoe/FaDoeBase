@@ -16,13 +16,12 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "zendframework/zendframework": "2.0.*"
+        "php": ">=5.3.10",
+        "zendframework/zendframework": "2.*"
     },
     "autoload": {
         "psr-0": {
-            "FadoeBase": "src/",
-            "FadoeBaseTest": "tests/"
+            "FadoeBase": "src/"
         },
         "classmap": [
             "./"
