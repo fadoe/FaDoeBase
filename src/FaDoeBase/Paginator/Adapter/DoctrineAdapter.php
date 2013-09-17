@@ -1,6 +1,6 @@
 <?php
 
-namespace FadoeBase\Paginator\Adapter;
+namespace FaDoeBase\Paginator\Adapter;
 
 use Doctrine\ORM\Tools\Pagination\Paginator;
 use Zend\Paginator\Adapter\AdapterInterface;

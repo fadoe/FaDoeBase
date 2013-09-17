@@ -1,6 +1,6 @@
 <?php
 
-namespace FadoeBase\Entity;
+namespace FaDoeBase\Entity;
 
 use Zend\InputFilter\InputFilterAwareInterface;
 use Zend\Stdlib\ArraySerializableInterface;

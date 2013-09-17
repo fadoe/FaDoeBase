@@ -1,6 +1,6 @@
 <?php
 
-namespace FadoeBase\Exception;
+namespace FaDoeBase\Exception;
 
 interface ExceptionInterface
 {

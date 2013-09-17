@@ -8,23 +8,24 @@
         "module",
         "fadoe"
     ],
-    "homepage": "https://github.com/fadoe/FaDoeBase",
+    "homepage": "https://github.com/fadoe/fadoe-base",
     "authors": [
         {
-            "name": "Falk Doering",
-            "homepage": "http://www.fadoe.de/"
+            "name": "Falk Doering"
         }
     ],
     "require": {
         "php": ">=5.3.10",
-        "zendframework/zendframework": "2.*"
+        "zendframework/zend-inputfilter": "~2.2",
+        "zendframework/zend-paginator": "~2.2",
+        "zendframework/zend-stdlib": "~2.2",
+        "zendframework/zend-view": "~2.2",
+        "zendframework/zend-navigation": "~2.2",
+        "doctrine/orm": "~2.4"
     },
     "autoload": {
         "psr-0": {
-            "FadoeBase": "src/"
-        },
-        "classmap": [
-            "./"
-        ]
+            "FaDoeBase": "src/"
+        }
     }
 }
