@@ -5,3 +5,4 @@
 vendor
 tests/report/*
 .idea
+composer.lock
